@@ -1,1 +1,2 @@
 # rclift.github.io
+This project is a single page website with multiple sections that give bits of information about myself.  The site is deployed at https://rclift.github.io/ and it uses 3 primary files to implement it's design and functionality.  The primary files are final.css, final.js, and index.hthml.  There is an additional image file in an images folder.  For everything to work the folder with the image and the 3 primary files all must be in the same directory and you would just need to upen up the html page or go to the link described above.
