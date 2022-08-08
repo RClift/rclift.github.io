@@ -1,38 +1,46 @@
-.bootstrap-grid .row > * {
-    background-color: #333;
-    height: 100px;
-    border: 1px solid var(#000000);
-    padding: 10px;
+
+:root{
+    --light: #ffffff;
+    --dark: #000000;
+    --pale: whitesmoke;
+    --grey: darkslategrey;
 }
 
-.bootstrap-grid .row div a{
-    padding: 20px;
-    color: white;
-    text-align: center;
-    font-size: 20px;
-}
-
-.bootstrap-grid .row div a:hover{
-    background-color: green;
-    color: black;
+body{
+    background-color: var(--light);
+    color: var(--dark);
 }
 
 .nav{
-    background-color: #333;
-    border: 1px solid var(#000000);
+    background-color: var(--grey);
+    border: 1px solid var(var(--dark));
     padding: 20px;
 }
 
 .nav a{
     padding: 20px;
-    color: white;
+    color: var(--light);
     text-align: center;
     font-size: 20px;
 }
 
 .nav a:hover{
     background-color: green;
-    color: black;
+    color: var(--dark);
+}
+
+.nav .mode{
+    background-color: var(--grey);
+    padding: 20px;
+    color: var(--light);
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav .mode:hover{
+    background-color: green;
+    color: var(--dark);
 }
 
 .headshot{
@@ -49,7 +57,7 @@ h2{
 form{
     margin-left: 10px;
     padding: 20px;
-    background-color: #e7e7e7;
+    background-color: var(--pale);
 }
   
 label{
@@ -67,21 +75,25 @@ label{
 .btn-primary {
     border: 1px solid green;
     background-color: green;
-    color: white;
+    color: var(--light);
 }
 
 .btn-primary:hover{
     background-color: orange;
-    color: black;
+    color: var(--dark);
 }
 
 .btn-secondary {
     border: 1px solid green;
-    background-color: white;
+    background-color: var(--light);
     color: green;
 }
 
 .btn-secondary:hover{
     background-color: orange;
-    color: black;
+    color: var(--dark);
+}
+
+.text-box{
+    size: 200%;
 }
